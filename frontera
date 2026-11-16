@@ -1,15 +1,3 @@
-"""
-Frontera eficiente de Markowitz con 10 activos, 1000 portafolios simulados y la CML.
-Datos: precios de cierre de Yahoo Finance (yfinance). Retornos ANUALES.
-
-Requisitos:  pip install -r requirements.txt
-Uso:         python frontera_eficiente.py
-"""
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-from scipy.optimize import minimize
-
 # ------------------------- PARÁMETROS (editables) -------------------------
 TICKERS = ["AAPL", "MSFT", "GOOGL", "AMZN", "NVDA",
            "JPM", "JNJ", "XOM", "PG", "KO"]
